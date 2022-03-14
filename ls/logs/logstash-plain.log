@@ -1,0 +1,1383 @@
+[2022-03-03T00:01:00,544][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.269149s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:01:16,180][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.275627s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:01:29,368][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.272849s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:01:42,505][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.293142s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:01:55,857][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.350330s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:02:11,068][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.320968s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:02:22,635][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.254183s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:02:35,925][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.308168s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:02:49,172][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.278194s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:03:03,962][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.484164s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:03:19,205][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.279717s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:03:32,877][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.339517s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:03:46,433][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.281225s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:03:59,761][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.291111s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:04:15,005][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.512627s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:04:28,195][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.327035s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:04:42,166][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.269456s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:04:57,605][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.367239s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:05:12,551][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.333649s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:05:25,532][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.303506s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:05:40,037][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.329035s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:05:52,908][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.295666s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:06:06,284][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.247216s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:06:20,573][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.269663s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:06:34,213][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.308698s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:06:48,647][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.286451s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:07:00,520][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.423153s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:07:15,636][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.339553s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:07:29,482][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.271519s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:07:42,999][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.379674s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:07:55,920][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.299598s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:08:12,669][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.300878s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:08:25,740][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.299879s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:08:41,193][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.264909s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:08:54,200][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.366063s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:09:08,377][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.291040s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:09:22,687][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.353229s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:09:34,998][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.314678s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:09:48,216][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.318524s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:10:01,044][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.274207s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:10:16,992][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.324114s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:10:30,461][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.471814s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:10:44,994][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.388854s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:10:58,109][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.484036s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:11:14,552][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.294707s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:11:25,747][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.264594s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:11:38,357][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.268838s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:11:51,103][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.263200s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:12:06,261][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.259391s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:12:21,164][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.473886s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:12:36,784][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.288431s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:12:51,319][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.251416s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:13:04,186][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.277568s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:13:19,312][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.291003s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:13:32,547][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.335026s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:13:47,201][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.281436s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:13:59,262][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.417859s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T00:14:13,905][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.343454s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:01:00,628][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.365320s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:01:15,051][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.293974s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:01:27,801][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.267854s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:01:41,043][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.389284s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:01:54,446][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.330294s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:02:08,567][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.302987s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:02:21,884][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.296122s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:02:35,509][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.302014s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:02:48,249][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.265639s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:03:00,301][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.463590s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:03:14,807][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.325917s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:03:29,416][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.310090s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:03:43,141][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.318160s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:03:56,289][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.255520s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:04:11,872][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.285899s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:04:25,022][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.300649s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:04:36,721][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.268832s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:04:50,328][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.272897s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:05:04,227][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.332420s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:05:19,179][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.276468s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:05:34,410][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.263228s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:05:47,662][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.276542s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:06:01,704][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.527197s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:06:18,449][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.273894s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:06:32,287][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.269554s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:06:46,258][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.359102s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:06:59,563][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.301192s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:07:12,852][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.289627s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:07:26,252][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.285687s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:07:41,271][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.263030s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:07:53,990][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.296679s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:08:08,751][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.294077s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:08:20,810][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.267549s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:08:34,765][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.328927s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:08:48,412][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.291975s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:09:01,664][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.346730s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:09:17,093][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.326606s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:09:30,109][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.297453s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:09:42,618][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.299428s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:09:55,410][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.283218s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:10:10,325][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.341288s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:10:23,083][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.368813s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:10:37,373][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.275711s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:10:50,215][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.287205s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:11:02,425][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.306463s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:11:17,802][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.267319s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:11:32,093][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.346124s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:11:45,493][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.320095s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:12:02,346][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.240206s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:12:17,092][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.272970s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:12:30,896][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.273611s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:12:44,451][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.337898s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:12:57,462][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.237959s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:13:08,136][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.297900s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:13:23,675][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.362491s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:13:37,358][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.277196s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:13:57,254][INFO ][logstash.inputs.jdbc     ][main][82b8147e6a6a6f45ad9d3402072c8f57141475b52791b5b38d6ce564bc3c38ef] (0.310667s) 
+      SELECT s.ST_ID AS station_idx, s.ST_TITLE AS station_title, s.THUMB AS Station_thumbnail, s.USER_ID AS station_dj_idx, s.PLAY_TIME AS station_play_time, tag_count AS station_song_count
+      FROM indj_ai.Station AS s
+      JOIN (SELECT ss.ST_ID, COUNT(*) AS tag_count 
+      	FROM indj_ai.Station_Song AS ss
+      	GROUP BY ss.ST_ID
+      	) AS ss
+      ON ss.ST_ID = s.ST_ID
+      WHERE s.enabled = 1
+      AND s.ST_TYPE IN(1,2,3,4)
+      ;
+      
+[2022-03-03T01:26:12,272][WARN ][logstash.runner          ] SIGTERM received. Shutting down.
+[2022-03-03T01:26:14,027][INFO ][logstash.javapipeline    ][main] Pipeline terminated {"pipeline.id"=>"main"}
+[2022-03-03T01:26:14,404][INFO ][logstash.runner          ] Logstash shut down.
